@@ -21,6 +21,7 @@ public class Siobergine {
         Question question = new Question("bla");
         Quizz quizz=new Quizz("");
         Sondage sondage = new Sondage("");
+        Enquete enquete=new Enquete("");
         
         d = "lol";
 
@@ -37,7 +38,7 @@ public class Siobergine {
                 case 1:question.ChooseQuestion(); ;break;
                 case 2:quizz.ChooseQuizz(); ;break;
                 case 3:sondage.ChooseSondage(); ;break;
-                case 4: ;break;
+                case 4:enquete.ChooseEnquete(); ;break;
                 case 5:stop = false;break;
                 default:comptCase = 0;System.out.println("vueillez entrer un choix valide!\n");
             }
